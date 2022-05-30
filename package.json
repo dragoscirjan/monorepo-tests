@@ -1,0 +1,17 @@
+{
+  "name": "monorepo",
+  "version": "0.1.0",
+  "description": "Monorepo test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx lerna run test --stream"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
